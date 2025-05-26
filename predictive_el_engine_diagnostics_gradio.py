@@ -170,7 +170,6 @@ with gr.Blocks() as demo:
     )
 
 if __name__ == "__main__":
-    demo.launch(server_name="127.0.0.1", server_port=7862)
     demo.launch(share=True)
 
 
